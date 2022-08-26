@@ -1,0 +1,214 @@
+@charset "utf-8";
+.body {
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color:white;
+	height: auto;
+	width: auto;
+	position: absolute;	
+}
+.main_body{
+	background-position: center;
+  	background-repeat:no-repeat;
+	background-attachment: fixed; 
+  	margin-top: 10px;
+	background-size:cover;
+	width: auto;
+	height: 1080px;
+	background-image: url("backgroundimage.jpg");	
+}
+
+.font-weight{
+		font-size: 30px;
+		font-weight: 35px;
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		font-style: italic;
+		font-style: bold;
+	}
+.textcenter{
+	font-weight: bold;
+	font-style: normal;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	color:#A9A9F5;
+	letter-spacing: 2px;
+}
+.imagecenter{
+	width:auto;
+	height:auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	clear:both;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+	}
+a:visited {
+	color:white;
+	background-color: transparent;
+	text-decoration: none;
+	}
+a:hover {
+	color: white;
+	background-color: transparent;
+	text-decoration: underline;
+	}
+a:active {
+	color: #5F04B4;
+	background-color: transparent;
+	text-decoration: underline;
+	}
+.topheader_center {
+		margin: auto;
+		height: 140px;
+	  	width: 1440px;
+		background-color: #2b58c8;
+		padding: 10px;
+	  	font-size: 72px;
+	  	font-style: italic;
+	  	text-align: center;
+	  	color: white;
+  }
+.aboutteam{
+	margin: auto;
+	height: 420px;
+	width: 1080px;
+	background-color: #002c68;
+	padding: 10px;
+}
+.center_aboutteam{
+	margin: auto;
+	height: 390px;
+	width: 1020px;
+	background-color: black;
+	color:white;
+	font-style: italic;
+	text-align: center;
+	font-size: 22pt;
+}
+.center_news{
+	display: block;
+	float:left;
+	margin: auto;
+	height: 160px;
+	width: 450px;
+	background-color: black;
+}
+.center_text{
+	display: block;
+	margin-right: 22px;
+	margin-top: 10px;
+	margin-left: 1px;
+	color:white;
+	font-style: italic;
+	text-align: center;
+	font-size: 12pt;
+	text-transform:uppercase;
+}
+.effect{
+	width: 420px;
+    height: 300px;
+    background-color: #fff;
+
+    box-shadow: 0px 0px 8px 4px #73d2e9;
+}
+.button{
+	background-color: #002c68;
+	color: white;
+	font-size: 16pt;
+	font-style: italic;
+	float: right;
+	box-shadow: 0px 0px 5px 5px #38b6ff;
+	-moz-box-shadow:    inset 0 0 10px #38b6ff;
+	-webkit-box-shadow: inset 0 0 10px #38b6ff;
+	cursor: pointer;
+}
+.button1{
+	background-color: #002c68;
+	color: white;
+	font-size: 16pt;
+	font-weight: bold;
+	float:left;
+	border-color: #002c68;
+	position: absolute;
+	left: 100px;
+	height: 40px;
+	width: 180px;
+	text-align: center;
+}
+.button2{
+	background-color: #002c68;
+	color: white;
+	font-size: 16pt;
+	font-weight: bold;
+	float:left;
+	border-color: #002c68;
+	position: absolute;
+	right: 500px;
+	height: 40px;
+	width: 160px;
+	text-align: center;
+}
+.team_members{
+	position: absolute;
+	left: 100px;
+	height:auto;
+	width: auto;
+	background-color: #002c68;
+	padding: 10px;
+}
+.newssection{
+	position: absolute;
+	right: 200px;
+	height:auto;
+	width: auto;
+	background-color: #002c68;
+	padding: 10px;
+}
+.effect1{
+	width: 640px;
+    height: 360px;
+    background-color: #fff;
+	display: block;
+	background-image: url(dota-2-wallpapers-hd_50129_hub10e0d70f65880f51bdc6108789f0849_779811_1920x1080_resize_q75_lanczos.jpg);
+	background-size: 640px 360px;
+	background-repeat: no-repeat;
+    box-shadow: 0px 0px 8px 4px #e10019;
+}
+.effect2{
+	width: 240px;
+    height: 140px;
+    background-color: #fff;
+	display: block;
+    box-shadow: 0px 0px 8px 2px #e10019;
+}
+.position_logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-top: auto;
+	margin-bottom: auto;	
+}
+.bottom-left {
+	margin-left: 10px;
+	margin-right: 180px;
+	position: absolute;
+	bottom: 20px;
+	left: 24px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-style: italic;
+  }
+  .container {
+	right: 0px;
+  }

@@ -1,0 +1,78 @@
+@charset "utf-8";
+table{
+	border-collapse: collapse;
+ 	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img_block{
+	display: block;
+	background-color: black;
+	height: 175px;
+	width: 225px;
+	opacity: 0.6;
+}
+.body {
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color:white;
+	height: auto;
+	width: 100%;
+	position: absolute;	
+}
+.main_body{
+	background-position: center;
+  	background-repeat:no-repeat;
+	background-attachment: fixed; 
+  	margin-top: 10px;
+	background-size:cover;
+	width: auto;
+	height: auto;
+	background-image: url("backgroundimage.jpg");
+	
+}
+.topheader_center {
+    margin: auto;
+    height: 100px;
+      width: 1400px;
+    background-color: #2b58c8;
+    padding: 5px;
+      font-size: 58px;
+      font-style: italic;
+      text-align: center;
+      color: white;
+}
+.td{
+	padding: 5px;
+	text-align: center;
+	width: auto;
+}
+.header_table{
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+	background-color: #1e4884;
+}
+.under_header{
+	background-color: rgba(30,72,132,0.5);
+}
+.name_tag{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+}
+.name{
+	text-transform: uppercase;
+	font-size: 10px;
+}
+.info_bottom{
+	text-transform: uppercase;
+	font-size: 13px;
+}
+.totGames{
+	font-size: 30px;
+}

@@ -1,0 +1,267 @@
+.body {
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color:white;
+	height: auto;
+	width: 100%;
+	position: absolute;	
+}
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left:0px;
+}
+.leftcolumn {   
+    float: left;
+    width: 75%;
+    padding-left: 20px;
+}
+ @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn,
+	.leftcolumn_bottom_part2, .rightcolumn_bottom_part2,
+	.leftcolumn_bottom_part1, .rightcolumn_bottom_part1 {   
+      width: 100%;
+      padding: 0;
+    }
+}
+.rightcolumn_bottom_part1 {
+    float: left;
+    width: 60%;
+    padding-top: 10px;
+}
+.leftcolumn_bottom_part1 {   
+    float: left;
+    width: 40%;
+    padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 0px;
+}
+.rightcolumn_bottom_part2 {
+    float: left;
+    width: 65%;
+    padding-top: 10px;
+}
+.leftcolumn_bottom_part2 {   
+    float: left;
+    width: 35%;
+    padding-left: 15px;
+}
+.main_body{
+	background-position: center;
+  	background-repeat:no-repeat;
+	background-attachment: fixed; 
+  	margin-top: 10px;
+	background-size:cover;
+	width: 100%;
+	height: 1250px;
+	background-image: url("backgroundimage.jpg");
+	
+}
+.effect_news{
+	width: 675px;
+    height: 395px;
+    background-color: #fff;
+	display: block;
+	background-image: url(505544.jpg);
+	background-size: 675px 395px;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 5px #8d9cbb;
+}
+.effect_news_1{
+	width: 675px;
+    height: 395px;
+    background-color: #fff;
+	display: block;
+	background-image: url(dota-2-wallpapers-hd_50129_hub10e0d70f65880f51bdc6108789f0849_779811_1920x1080_resize_q75_lanczos.jpg);
+	background-size: 675px 395px;
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 8px 4px #e10019;
+}
+.effect_news2{
+	width: 370px;
+    height: 185px;
+    background-image: url(lanaya-dota-2-ri.jpg);
+	display: block;
+	box-shadow: 5px 5px 5px #8d9cbb;
+	background-size: 370px 185px;
+	background-repeat: no-repeat;
+}
+.effect_news3{
+	width: 370px;
+    height: 185px;
+    background-image: url(50855ff8b20dfa6ab8931e3263aa733f.jpg);
+	background-size: 370px 185px;
+	background-repeat: no-repeat;
+	display: block;
+	box-shadow: 5px 5px 5px #8d9cbb;
+	background-color: black;
+}
+.newssection_page{
+	position: absolute;
+	right: 200px;
+	height: auto;
+	width: auto;	
+	padding: 0px;
+}
+.newssection_page_bottom{
+	position: absolute;
+	right: 135px;
+	height:auto;
+	width: auto;
+	background-color: #002c68;
+	padding: 10px;
+}
+.team_members_news{
+	position: absolute;
+	left: 100px;
+	height:auto;
+	width: auto;
+	padding: 10px;
+}
+.team_members_news_bottom{
+	position: absolute;
+	left: 50px;
+	height:auto;
+	width: auto;
+	padding: 10px;
+	background-color: #002c68;
+}
+.center_news_page{
+	display: block;
+	float:left;
+	margin: auto;
+
+}
+.center_text{
+	display: block;
+	margin-right: 45px;
+	margin-top: 35px;
+	margin-left: 15px;
+	color:white;
+	font-style: italic;
+	text-align: center;
+	font-size: 8pt;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+.center_text_1{
+	display: block;
+	margin-right: 45px;
+	margin-top: 35px;
+	margin-left: 15px;
+	color:white;
+	font-style: italic;
+	text-align: center;
+	font-size: 8pt;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+.center_news_page_bottom{
+	display: block;
+	float:left;
+	margin: auto;
+	height: 180px;
+	width: 450px;
+	background-color: black;
+}
+.imagecenter{
+	width:auto;
+	height:auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	clear:both;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.container {
+	right: 0px;	
+  }
+.position_text{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 30px;
+	padding-top: 300px;
+	padding-right: 100px;
+	padding-bottom: 10px;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.position_news_left{
+	background-color: #002c68;
+	color: white;
+	font-size: 14pt;
+	font-weight: bold;
+	float:left;
+	border-color: #002c68;
+	position: absolute;
+	left: 620px;
+	top: 15px;
+	height: auto;
+	width: auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+.position_news_right{
+	background-color: #002c68;
+	color: white;
+	font-size: 14pt;
+	font-weight: bold;
+	float:left;
+	border-color: #002c68;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	height: auto;
+	width: auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+.effect2{
+	width: 240px;
+    height: 160px;
+    background-color: #fff;
+	display: block;
+    box-shadow: 0px 0px 8px 4px #73d2e9;
+}
+.effect3{
+	width: 280px;
+    height: 160px;
+    background-color: #fff;
+	display: block;
+    box-shadow: 0px 0px 4px 2px #e10019;
+}
+.position_text_right{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 20px;
+	padding-top: 130px;
+	padding-right: 110px;
+	padding-bottom: 10px;
+	font-size: 12px;
+	color: white;
+	text-transform: uppercase;
+}
+.title_text_left{
+	color: #fff;
+	text-align: end;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 8px;
+}
+.title_text_right{
+	color: #fff;
+	text-align: end;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}

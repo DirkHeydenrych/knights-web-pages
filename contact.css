@@ -1,0 +1,48 @@
+.contact{
+    margin: auto;
+    height: 700px;
+    width: 1440px;
+    background-color: #2b58c8;
+    padding: 10px;
+    font-size: 72px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    opacity: 0.4;
+    border-color: #2b58c8;
+    border-style: solid;
+    border-width: 5px;
+}
+.body {
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color:white;
+	height: auto;
+	width: 100%;
+	position: absolute;	
+}
+.topheader_center {
+	margin: auto;
+	height: 100px;
+	  width: 1400px;
+	background-color: #2b58c8;
+	padding: 5px;
+	  font-size: 58px;
+	  font-style: italic;
+	  text-align: center;
+	  color: white;
+}
+.main_body{
+	background-position: center;
+  	background-repeat:no-repeat;
+	background-attachment: fixed; 
+  	margin-top: 10px;
+	background-size:cover;
+	width: auto;
+	height: 700px;
+	background-image: url("backgroundimage.jpg");
+	
+}

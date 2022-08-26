@@ -1,0 +1,120 @@
+@charset "utf-8";
+.body {
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color:white;
+	height: auto;
+	width: auto;
+	position: absolute;	
+}
+.topheader_center {
+    margin: auto;
+    height: 100px;
+      width: 1400px;
+    background-color: #2b58c8;
+    padding: 5px;
+      font-size: 58px;
+      font-style: italic;
+      text-align: center;
+      color: white;
+}
+.main_body{
+	background-position: center;
+  	background-repeat:no-repeat;
+	background-attachment: fixed; 
+  	margin-top: 10px;
+	background-size:cover;
+	width: auto;
+	height: 1440px;
+	background-image: url("backgroundimage.jpg");
+	
+}
+.first_line{
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+.p1{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold; 
+}
+.p2{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.p3{
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #D5AD6D; /*if no support for background-clip*/
+    background: -webkit-linear-gradient(transparent, transparent),
+    -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.p4{
+    color: white;
+    font-size: 14px;
+    text-align: center; 
+    font-weight: bold;
+}
+.our_values{
+    color: white;
+    font-size: 20px;
+    text-align: center; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.flipcard_text{
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    left: 25%;
+    bottom: 25%;
+}
+.flipcard_text_3rd_block{
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    left: 25%;
+    bottom: 20%;
+}
+.container {
+    color: white;
+  }
+  a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+	}
+a:visited {
+	color:white;
+	background-color: transparent;
+	text-decoration: none;
+	}
+a:hover {
+	color: white;
+	background-color: transparent;
+	text-decoration: underline;
+	}
+a:active {
+	color: #5F04B4;
+	background-color: transparent;
+	text-decoration: underline;
+	}
